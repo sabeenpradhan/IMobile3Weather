@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/day_TV"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WED JUN 15" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.3"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/high_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High : 89 C" />
+
+            <TextView
+                android:id="@+id/low_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOW : 90 C" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/condition_today_TV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="CHANCES OF THUNDER STORM"
+            android:layout_weight="0.3"
+            android:layout_marginRight="20dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/humidity_today_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HUMIDITY : 89 %" />
+
+            <TextView
+                android:id="@+id/wind_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WIND : 80 MPH SWS" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#c0c0c0" />
+</LinearLayout>
