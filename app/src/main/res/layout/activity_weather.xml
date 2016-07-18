@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.imobile3.weather.WeatherActivity">
+    tools:context="com.sabeen.weather.WeatherActivity">
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/starSwipe"

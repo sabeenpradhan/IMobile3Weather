@@ -1,4 +1,4 @@
-package com.imobile3.weather;
+package com.sabeen.weather;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -15,11 +15,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.imobile3.weather.adapter.WeatherAdapter;
-import com.imobile3.weather.imobile3weather.R;
-import com.imobile3.weather.model.AllWeatherDTO;
-import com.imobile3.weather.model.WeatherItems;
-import com.imobile3.weather.utils.Helper;
+import com.sabeen.weather.adapter.WeatherAdapter;
+import com.sabeen.weather.model.AllWeatherDTO;
+import com.sabeen.weather.model.WeatherItems;
+import com.sabeen.weather.utils.Helper;
 
 import java.util.List;
 

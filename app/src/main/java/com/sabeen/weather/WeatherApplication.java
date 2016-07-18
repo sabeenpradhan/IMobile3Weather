@@ -1,4 +1,4 @@
-package com.imobile3.weather;
+package com.sabeen.weather;
 
 import android.app.Application;
 import android.content.SharedPreferences;
@@ -8,7 +8,7 @@ import android.content.SharedPreferences;
  * Created by sabeen on 6/15/16.
  */
 
-public class IMobile3Application extends Application{
+public class WeatherApplication extends Application{
     @Override
     public void onCreate() {
         super.onCreate();

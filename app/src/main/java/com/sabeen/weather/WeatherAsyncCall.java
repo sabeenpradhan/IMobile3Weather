@@ -1,12 +1,12 @@
-package com.imobile3.weather;
+package com.sabeen.weather;
 
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.imobile3.weather.model.AllWeatherDTO;
-import com.imobile3.weather.model.CurrentWeather;
-import com.imobile3.weather.model.WeatherItems;
+import com.sabeen.weather.model.AllWeatherDTO;
+import com.sabeen.weather.model.CurrentWeather;
+import com.sabeen.weather.model.WeatherItems;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

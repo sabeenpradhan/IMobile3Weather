@@ -1,17 +1,16 @@
-package com.imobile3.weather.adapter;
+package com.sabeen.weather.adapter;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.imobile3.weather.imobile3weather.R;
-import com.imobile3.weather.model.CurrentWeather;
-import com.imobile3.weather.model.WeatherItems;
+import com.sabeen.weather.R;
+import com.sabeen.weather.model.CurrentWeather;
+import com.sabeen.weather.model.WeatherItems;
 
 import java.util.List;
 

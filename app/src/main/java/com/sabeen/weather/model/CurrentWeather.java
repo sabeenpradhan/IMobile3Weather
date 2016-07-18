@@ -1,4 +1,4 @@
-package com.imobile3.weather.model;
+package com.sabeen.weather.model;
 
 /**
  * Class for current weather

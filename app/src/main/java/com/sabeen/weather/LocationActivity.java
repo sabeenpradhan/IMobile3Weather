@@ -1,4 +1,4 @@
-package com.imobile3.weather;
+package com.sabeen.weather;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -19,8 +19,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-import com.imobile3.weather.imobile3weather.R;
-import com.imobile3.weather.utils.Helper;
+import com.sabeen.weather.utils.Helper;
 
 import java.io.IOException;
 import java.util.List;

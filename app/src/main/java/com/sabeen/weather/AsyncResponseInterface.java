@@ -1,6 +1,6 @@
-package com.imobile3.weather;
+package com.sabeen.weather;
 
-import com.imobile3.weather.model.AllWeatherDTO;
+import com.sabeen.weather.model.AllWeatherDTO;
 
 /**
  *Interface for getting onPostExecute result of Weather Async Call

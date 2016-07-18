@@ -9,7 +9,7 @@
     android:layout_marginTop="20dp"
     android:orientation="vertical"
 
-    tools:context="com.imobile3.weather.LocationActivity">
+    tools:context="com.sabeen.weather.LocationActivity">
 
     <EditText
         android:id="@+id/zip_ET"
